@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wpfaq-client-side-solution",
+    "id": "5b57dc77-ba3c-4b7e-96a6-e0023bcd79da",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wpfaq description"
+      },
+      "longDescription": {
+        "default": "wpfaq description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wpfaq Feature",
+        "description": "The feature that activates elements of the wpfaq solution.",
+        "id": "a93c3d1b-76f4-45b4-883f-8c1ea34867a6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wpfaq.sppkg"
+  }
+}
